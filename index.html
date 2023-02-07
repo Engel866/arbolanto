@@ -98,8 +98,8 @@
         })
         
         if (screen.width <992) {
-            document.getElementById("lienzo").width = screen.width;
-            document.getElementById("lienzo").height = screen.height;
+            document.getElementById("lienzo").width = screen.width-50;
+            document.getElementById("lienzo").height = screen.height-100;
             document.body.style.overflow = "hidden";
         }
         canvas.addEventListener("touchstart", my_touchstart);
